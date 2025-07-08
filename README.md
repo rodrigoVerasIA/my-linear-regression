@@ -9,7 +9,7 @@ $ y = ax + b $
 
 for example:
 
-$ y = x² + 1$
+$$ y = x² + 1 $$
 
 dataset example:
 
@@ -19,7 +19,7 @@ dataset example:
 | 2 | 5 |
 | 3 | 10|
 
-$
+$$
 Y = \begin{pmatrix}
 y_1 \\
 y_2 \\
@@ -27,9 +27,9 @@ y_3 \\
 \vdots \\
 y_n
 \end{pmatrix}
-$
+$$
 
-$
+$$
 \begin{pmatrix}
 x_1 \\
 x_2 \\
@@ -59,32 +59,32 @@ $
 \vdots \\
 ŷ_n
 \end{pmatrix}
-$
+$$
 
-$
+$$
 errors = Ŷ - Y
-$
+$$
 
 # Descent gradients
 
-* $ Y = WX^T + b $
-* $ MSE = \frac{errors²}{n} $
-* $ errors = Ŷ - (WX^T + b)$
+* $$ Y = WX^T + b $$
+* $$ MSE = \frac{errors²}{n} $$
+* $$ errors = Ŷ - (WX^T + b) $$
 
 $$ \frac{\delta MSE}{\delta W} = \frac{\delta MSE}{\delta errors} \cdot \frac{\delta errors}{\delta W} $$
 
-$ \frac{\delta MSE}{\delta W} = \frac{-2X^Terrors}{n}$
-$\implies$
-$ \frac{\delta MSE}{\delta W} = \frac{X^Terrors}{n}$
+$$ \frac{\delta MSE}{\delta W} = \frac{-2X^Terrors}{n} $$
+$$ \implies $$
+$$ \frac{\delta MSE}{\delta W} = \frac{X^Terrors}{n}$$
 
 $$ \frac{\delta MSE}{\delta b} = \frac{\delta MSE}{\delta errors} \cdot \frac{\delta errors}{\delta b} $$
 
-$ \frac{\delta MSE}{\delta b} = \frac{-2errors}{n}$
-$\implies$
-$ \frac{\delta MSE}{\delta b} = \frac{errors}{n}$
+$$  \frac{\delta MSE}{\delta b} = \frac{-2errors}{n} $$
+$$ \implies $$
+$$ \frac{\delta MSE}{\delta b} = \frac{errors}{n} $$
 
 ## update weights and bias
 
-$ new_W = old_W - \alpha\cdot \frac{\delta MSE}{\delta W} $
+$$ new_W = old_W - \alpha\cdot \frac{\delta MSE}{\delta W} $$
 
-$ new_b = old_b - \alpha\cdot \frac{\delta MSE}{\delta b} $
+$$ new_b = old_b - \alpha\cdot \frac{\delta MSE}{\delta b} $$
