@@ -49,9 +49,9 @@ x_3w_1 + b \\
 x_nw_1 + b \\
 \end{matrix}
 = Ŷ
-$
+
 that is
-$
+
 Ŷ = \begin{matrix}
 ŷ_1 \\
 ŷ_2 \\
