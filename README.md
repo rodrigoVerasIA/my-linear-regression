@@ -1,6 +1,6 @@
 ### What is linear regression ?
 
-$ y = ax + b $
+$$ y = ax + b $$
 
 * <var>x</var>: input features
 * <var>w</var>: weight (slope)
@@ -20,45 +20,45 @@ dataset example:
 | 3 | 10|
 
 $$
-Y = \begin{pmatrix}
+Y = \begin{matrix}
 y_1 \\
 y_2 \\
 y_3 \\
 \vdots \\
 y_n
-\end{pmatrix}
+\end{matrix}
 $$
 
 $$
-\begin{pmatrix}
+\begin{matrix}
 x_1 \\
 x_2 \\
 x_3 \\
 \vdots \\
 x_n
-\end{pmatrix}
+\end{matrix}
 \cdot
-\begin{pmatrix}
+\begin{matrix}
 w_1
-\end{pmatrix} + b
-= \begin{pmatrix}
+\end{matrix} + b
+= \begin{matrix}
 x_1w_1 + b \\
 x_2w_1 + b \\
 x_3w_1 + b \\
 \vdots \\
 x_nw_1 + b \\
-\end{pmatrix}
+\end{matrix}
 = Ŷ
 $
 that is
 $
-Ŷ = \begin{pmatrix}
+Ŷ = \begin{matrix}
 ŷ_1 \\
 ŷ_2 \\
 ŷ_3 \\
 \vdots \\
 ŷ_n
-\end{pmatrix}
+\end{matrix}
 $$
 
 $$
