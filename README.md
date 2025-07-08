@@ -20,45 +20,47 @@ dataset example:
 | 3 | 10|
 
 $$
-Y = \begin{matrix}
+Y = \begin{bmatrix}
 y_1 \\
 y_2 \\
 y_3 \\
 \vdots \\
 y_n
-\end{matrix}
+\end{bmatrix}
 $$
 
 $$
-\begin{matrix}
+\begin{bmatrix}
 x_1 \\
 x_2 \\
 x_3 \\
 \vdots \\
 x_n
-\end{matrix}
+\end{bmatrix}
 \cdot
-\begin{matrix}
+\begin{bmatrix}
 w_1
-\end{matrix} + b
-= \begin{matrix}
+\end{bmatrix} + b
+= \begin{bmatrix}
 x_1w_1 + b \\
 x_2w_1 + b \\
 x_3w_1 + b \\
 \vdots \\
 x_nw_1 + b \\
-\end{matrix}
+\end{bmatrix}
 = Ŷ
+$$
 
 that is
 
-Ŷ = \begin{matrix}
+$$
+Ŷ = \begin{bmatrix}
 ŷ_1 \\
 ŷ_2 \\
 ŷ_3 \\
 \vdots \\
 ŷ_n
-\end{matrix}
+\end{bmatrix}
 $$
 
 $$
